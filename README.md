@@ -2,7 +2,7 @@
 
 ## Features and Requirements
 
-### User Stories
+### 1. User Stories
 1. As a new user, I want to be able to easily enter a chat room so I can quickly start talking to my
 friends and family.
 2. As a user, I want to be able to send messages to my friends and family members to exchange
@@ -15,7 +15,7 @@ time.
 reader so that I can engage with a chat interface.
 
 
-## Key Features
+## 2. Key Features
 1. A page where users can enter their name and choose a background color for the chat screen
 before joining the chat.
 2. A page displaying the conversation, as well as an input field and submit button.
@@ -24,7 +24,7 @@ and location data.
 4. Data gets stored online and offline.
 
 
-## Technical Requirements
+## 3. Technical Requirements
 1. The app must be written in React Native.
 2. The app must be developed using Expo.
 3. The app must be styled according to the given screen design.
