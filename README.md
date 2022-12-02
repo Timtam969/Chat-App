@@ -15,6 +15,7 @@ time.
 reader so that I can engage with a chat interface.
 
 
+
 ## 2. Key Features
 1. A page where users can enter their name and choose a background color for the chat screen
 before joining the chat.
@@ -22,6 +23,7 @@ before joining the chat.
 3. The chat must provide users with two additional communication features: sending images
 and location data.
 4. Data gets stored online and offline.
+
 
 
 ## 3. Technical Requirements
