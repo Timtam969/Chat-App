@@ -1,6 +1,6 @@
-Chat APP
+#Chat APP
 
-Features and Requirements
+##Features and Requirements
 
 User Stories
 
@@ -21,7 +21,7 @@ time.
 reader so that I can engage with a chat interface.
 
 
-Key Features
+##Key Features
 
 ● A page where users can enter their name and choose a background color for the chat screen
 before joining the chat.
@@ -34,7 +34,7 @@ and location data.
 ● Data gets stored online and offline.
 
 
-Technical Requirements
+##Technical Requirements
 
 ● The app must be written in React Native.
 
