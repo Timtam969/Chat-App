@@ -10,6 +10,7 @@ const backgroundColors = {
 };
 
 export default class Start extends React.Component {
+  // Setting the text field to null
   constructor(props) {
     super(props);
     this.state = { name: '' }
@@ -17,19 +18,29 @@ export default class Start extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+
+        {/* Importing the background image  */}
         <ImageBackground source={require('../assets/background-image.png')} resizeMode="cover" style={styles.image}>
           <Text style={styles.title}>Chat App</Text>
           <View style={styles.startWrapper}>
+
+            {/* Creating the Text field */}
+            {/* Once input the output will be presented on the Navigation Bar */}
             <TextInput
               style={styles.input}
               onChangeText={(name) => this.setState({ name })}
               value={this.state.name}
               placeholder='Type Your Name Here'
             />
+
+            {/* Creating the Background Color Choices */}
             <View style={styles.colorWrapper}>
               <Text style={styles.colorText}>Choose Background Color:</Text>
               <View style={styles.colors}>
                 <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel='Background Black'
+                  accessibilityHint='Change your chat screen background to Black'
                   style={[
                     styles.color,
                     { backgroundColor: backgroundColors.black },
@@ -39,6 +50,9 @@ export default class Start extends React.Component {
                   }
                 />
                 <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel='Background Purple'
+                  accessibilityHint='Change your chat screen background to Purple'
                   style={[
                     styles.color,
                     { backgroundColor: backgroundColors.purple },
@@ -48,6 +62,9 @@ export default class Start extends React.Component {
                   }
                 />
                 <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel='Background Grey'
+                  accessibilityHint='Change your chat screen background to Grey'
                   style={[
                     styles.color,
                     { backgroundColor: backgroundColors.grey },
@@ -57,6 +74,9 @@ export default class Start extends React.Component {
                   }
                 />
                 <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel='Background Green'
+                  accessibilityHint='Change your chat screen background to Green'
                   style={[
                     styles.color,
                     { backgroundColor: backgroundColors.green },
@@ -67,7 +87,13 @@ export default class Start extends React.Component {
                 />
               </View>
             </View>
+
+            {/* Creating the Chat Button */}
             <TouchableOpacity
+              accessible={true}
+              accessibilityLabel='Start Chatting'
+              accessibilityHint='Enter the chat room and start chatting'
+              accessibilityRole="button"
               style={styles.button}
               onPress={() =>
                 this.props.navigation.navigate('Chat', {
@@ -75,6 +101,7 @@ export default class Start extends React.Component {
                   color: this.state.color,
                 })
               }
+
             >
               <Text style={styles.buttonText}>Start Chatting</Text>
             </TouchableOpacity>
