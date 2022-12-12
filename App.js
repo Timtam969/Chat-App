@@ -16,14 +16,9 @@ import Start from './components/Start';
 const Stack = createStackNavigator();
 
 export default class App extends React.Component {
-  // // Setting the text field to null
-  // constructor(props) {
-  //   super(props);
-  //   this.state = { text: '' };
-  // }
-  // alertMyText(input = []) {
-  //   Alert.alert(input.text);
-  // }
+
+
+
   render() {
     return (
       <NavigationContainer>
