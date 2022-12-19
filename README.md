@@ -41,6 +41,29 @@ and location data.
 12. The chat interface and functionality must be created using the Gifted Chat library.
 13. The app’s codebase must contain comments.
 
+##Dependencies
+  - "@react-native-async-storage/async-storage": "~1.17.3",
+  -  "@react-native-community/masked-view": "^0.1.11",
+  -  "@react-native-community/netinfo": "9.3.5",
+  -  "@react-navigation/native": "^6.0.16",
+  -  "@react-navigation/stack": "^6.3.7",
+  -  "expo": "~47.0.8",
+  -  "expo-image-picker": "~14.0.2",
+  -  "expo-location": "~15.0.1",
+  -  "expo-permissions": "~14.0.0",
+  -  "expo-status-bar": "~1.4.2",
+  -  "firebase": "^9.15.0",
+  -  "react": "18.1.0",
+  -  "react-native": "0.70.5",
+  -  "react-native-gesture-handler": "~2.8.0",
+  -  "react-native-gifted-chat": "^1.0.4",
+  -  "react-native-maps": "1.3.2",
+  -  "react-native-reanimated": "~2.12.0",
+  -  "react-native-safe-area-context": "4.4.1",
+  -  "react-native-screens": "~3.18.0",
+  -  "react-native-web": "~0.18.7",
+  -  "react-navigation": "^4.4.4"
+
 ## User Guide
 1. Open the App
 2. Type your name in the inout field
