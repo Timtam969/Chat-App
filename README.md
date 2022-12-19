@@ -49,10 +49,10 @@ and location data.
 5. You can either use one of the 4 options to send:
   5.1 You can type a message and send your written message
   5.2 You can press the '+' symbol which will give the following 4 options:
-    5.2.1 'Choose From Library' (This is to choose an existing picture from you mobile/ desktop storage, once selected it will send the information.)
-    5.2.2 'Take Picture' this will access your Camera and allow you to take and send a picture. 
-    5.2.3 'Send Location' will send your direct location to the recipient. 
-    5.2.4 'Cancel' will send you back to the chat screen. 
+    - 'Choose From Library' (This is to choose an existing picture from you mobile/ desktop storage, once selected it will send the information.)
+    - 'Take Picture' this will access your Camera and allow you to take and send a picture. 
+    - 'Send Location' will send your direct location to the recipient. 
+    - 'Cancel' will send you back to the chat screen. 
   
   Please enjoy using the app!
   
