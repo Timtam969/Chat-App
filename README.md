@@ -41,7 +41,7 @@ and location data.
 12. The chat interface and functionality must be created using the Gifted Chat library.
 13. The app’s codebase must contain comments.
 
-##Dependencies
+## 4. Dependencies
   - "@react-native-async-storage/async-storage": "~1.17.3",
   -  "@react-native-community/masked-view": "^0.1.11",
   -  "@react-native-community/netinfo": "9.3.5",
@@ -64,7 +64,7 @@ and location data.
   -  "react-native-web": "~0.18.7",
   -  "react-navigation": "^4.4.4"
 
-## User Guide
+## 5. User Guide
 1. Open the App
 2. Type your name in the inout field
 3. Choose your background Color
