@@ -65,7 +65,6 @@ and location data.
   -  "react-navigation": "^4.4.4"
 
 ## 5. Technology Used
-Technologies being used:
 - React Native
 - Expo
 - Google Firestore Database
