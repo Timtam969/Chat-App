@@ -64,7 +64,13 @@ and location data.
   -  "react-native-web": "~0.18.7",
   -  "react-navigation": "^4.4.4"
 
-## 5. User Guide
+## 5. Technology Used
+Technologies being used:
+- React Native
+- Expo
+- Google Firestore Database
+
+## 6. User Guide
 1. Open the App
 2. Type your name in the inout field
 3. Choose your background Color
