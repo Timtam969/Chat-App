@@ -5,10 +5,10 @@ import * as Location from 'expo-location';
 import * as ImagePicker from 'expo-image-picker';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import { connectActionSheet } from '@expo/react-native-action-sheet';
-import firebase from "firebase/app";
-import "firebase/auth";
-import "firebase/firestore";
-import 'firebase/storage';
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+import 'firebase/compat/storage';
 
 
 export default class CustomActions extends React.Component {
@@ -16,7 +16,7 @@ export default class CustomActions extends React.Component {
 
   imagePicker = async () => {
     // expo permission
-    const { status } = await Permissions.askAsync(Permissions.MEDIA_LIBRARY_WRITE_ONLY);
+    const { status } = await Permissions.askAsync(Permissions.MEDIA_LIBRARY);
     try {
       if (status === 'granted') {
         // pick image
@@ -102,7 +102,7 @@ export default class CustomActions extends React.Component {
     const imageNameBefore = uri.split('/');
     const imageName = imageNameBefore[imageNameBefore.length - 1];
 
-    const ref = firebase.storage().ref().child('`images/${imageName}`');
+    const ref = firebase.storage().ref().child(`images/${imageName}`);
 
     const snapshot = await ref.put(blob);
 
